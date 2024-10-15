@@ -44,12 +44,14 @@ const Hero: React.FC = () => {
           <div className="relative w-[100vw] overflow-hidden lg:order-1 h-full lg:h-auto lg:w-5/12">
             <div className="absolute inset-0">
                           
-                           <Image 
-                  className="object-cover w-full h-full " 
-                  src={img1} 
-                  alt="ADC Logo" 
-                   // Adjust based on your logo's dimensions
-                />
+                            <Image 
+                className="object-cover w-full h-full"
+                src={img1}
+                alt="Hero Image"
+                layout="fill"
+                priority
+                placeholder="blur"
+              />
             </div>
 
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
