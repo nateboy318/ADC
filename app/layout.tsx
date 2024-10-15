@@ -7,7 +7,7 @@ const aleo = Aleo({
   subsets: ['latin'],
   variable: '--font-aleo',
   display: 'swap',
-  weight: ['300', '400', '700'],  // Add the weights you need
+  weight: ['300', '400', '700'],
 })
 
 interface LayoutProps {
@@ -16,21 +16,10 @@ interface LayoutProps {
 
 export const metadata: Metadata = {
   title: {
-    default: "TypeScript Next.js Stripe Example",
-    template: "%s | Next.js + TypeScript Example",
+    default: "Appalachian Disaster Coalition",
+    template: "%s | Appalachian Disaster Coalition",
   },
-  twitter: {
-    card: "summary_large_image",
-    description:
-      "Full-stack TypeScript example using Next.js, react-stripe-js, and stripe-node.",
-    images: [
-      {
-        url: "https://nextjs-typescript-react-stripe-js.vercel.app/social_card.png",
-      },
-    ],
-    site: "@StripeDev",
-    title: "TypeScript Next.js Stripe Example",
-  },
+  description: "Helping Appalachia rebuild their communities after disasters",
 };
 
 export default function RootLayout({ children }: LayoutProps) {
