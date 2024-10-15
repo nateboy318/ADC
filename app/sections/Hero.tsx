@@ -27,13 +27,13 @@ const Hero: React.FC = () => {
               <p className="mt-8 text-xl text-dirt">Providing rapid response and long-term recovery for our mountain communities, ensuring resilience and sustainability in the face of challenges. </p>
               
               <div className="max-w-xl mx-auto mt-8 lg:mx-0 lg:mt-12 z-50">
-      <Link href="#donate">
-        <span 
-          className="inline-block w-full sm:w-auto px-16 py-4 text-lg font-semibold text-white transition-all duration-200 bg-forest rounded-md hover:bg-dirt focus:bg-dirt cursor-pointer"
-        >
-          Give Now
-        </span>
-      </Link>
+      <a 
+                href="#donate"
+                
+                className="inline-block w-full sm:w-auto px-16 py-4 text-lg font-semibold text-white transition-all duration-200 bg-forest rounded-md hover:bg-dirt focus:bg-dirt cursor-pointer"
+              >
+                Give Now
+              </a>
     </div>
               
             </div>

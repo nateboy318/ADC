@@ -34,6 +34,8 @@ const FadeImageCarousel = ({ interval = 5000 }) => {
         src={images[currentImageIndex]} 
         alt={`Carousel image ${currentImageIndex + 1}`}
         layout="fill"
+        priority
+        placeholder="blur"
         objectFit="cover"
         className={`transition-opacity duration-1000 ${isTransitioning ? 'opacity-0' : 'opacity-100'}`}
       />
