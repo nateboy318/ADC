@@ -2,10 +2,11 @@
 import logo from '../../public/adclogo.png'
 import Image from 'next/image'
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 const Footer = () => {        
     return (
-        <footer className="py-8 sm:py-10 bg-dirt">
+        <footer className="py-8 sm:py-10 bg-dirt relative z-50">
     <div className="px-6 mx-auto sm:px-8 lg:px-12 max-w-7xl">
         <div className="grid items-center grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-3">
             <div className="flex-shrink-0">
@@ -58,26 +59,24 @@ const Footer = () => {
 
             <div className="col-span-2 md:col-span-1 md:order-2">
                 <ul className="flex items-center justify-center sm:justify-between md:justify-center space-x-9 lg:space-x-16">
-                    <li>
-                        <a href="#" title="" className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
-                            About
-                        </a>
-                    </li>
+                            <li>
+                                <Link href="#hero" title="Home" className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
+                                    Home
+                                </Link>
+                            </li>
 
-                    <li>
-                        <a href="#" title="" className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
-                            Our Mission
-                        </a>
-                    </li>
+                            <li>
+                                <Link href="#roadmap" title="Our Roadmap" className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
+                                    Our Roadmap
+                                </Link>
+                            </li>
 
-                    <li>
-                        <a href="#" title="" className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
-                            Donate
-                        </a>
-                    </li>
-
-                    
-                </ul>
+                            <li>
+                                <Link href="#about" title="Our Mission" className="font-sans text-sm font-normal text-opacity-50 transition-all duration-200 rounded text-white hover:text-opacity-100 focus:outline-none focus:ring-2 focus:ring-offset-1 focus:ring-primary focus:ring-offset-secondary focus:text-opacity-100">
+                                    Our Mission
+                                </Link>
+                            </li>
+                        </ul>
             </div>
         </div>
     </div>

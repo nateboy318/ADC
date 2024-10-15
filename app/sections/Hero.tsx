@@ -1,10 +1,13 @@
 "use client";
 
 import React from 'react';
+import Link from 'next/link';
+import img1 from '../../public/4.png'
+import Image from 'next/image'
 
 const Hero: React.FC = () => {
   return (
-    <div className="relative">
+    <div className="relative z-40">
       
 
       <section className="bg-lightbrown overflow-hidden ">
@@ -24,14 +27,14 @@ const Hero: React.FC = () => {
               <p className="mt-8 text-xl text-dirt">Providing rapid response and long-term recovery for our mountain communities, ensuring resilience and sustainability in the face of challenges. </p>
               
               <div className="max-w-xl mx-auto mt-8 lg:mx-0 lg:mt-12 z-50">
-                <button 
-                  type="button" 
-                  className="w-full sm:w-auto px-16 py-4 text-lg font-semibold text-white transition-all duration-200 bg-forest rounded-md hover:bg-dirt focus:bg-dirt"
-                  
-                >
-                  Give Now
-                </button>
-              </div>
+      <Link href="#donate">
+        <span 
+          className="inline-block w-full sm:w-auto px-16 py-4 text-lg font-semibold text-white transition-all duration-200 bg-forest rounded-md hover:bg-dirt focus:bg-dirt cursor-pointer"
+        >
+          Give Now
+        </span>
+      </Link>
+    </div>
               
             </div>
 
@@ -40,7 +43,13 @@ const Hero: React.FC = () => {
 
           <div className="relative w-[100vw] overflow-hidden lg:order-1 h-full lg:h-auto lg:w-5/12">
             <div className="absolute inset-0">
-              <img className="object-cover w-full h-full scale-150" src="https://cdn.pixabay.com/photo/2020/02/27/14/44/smoky-mountains-4884873_1280.jpg" alt="" />
+                          
+                           <Image 
+                  className="object-cover w-full h-full " 
+                  src={img1} 
+                  alt="ADC Logo" 
+                   // Adjust based on your logo's dimensions
+                />
             </div>
 
             <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
@@ -59,7 +68,7 @@ const Hero: React.FC = () => {
                         <path d="M37.7,40.2h-9.3c-0.6,0-1.3,0.5-1.5,1.1l-1.8,6.8c-0.2,0.6,0.2,1.1,0.8,1.1h9.3c0.6,0,1.3-0.5,1.5-1.1l1.8-6.8     C38.7,40.7,38.3,40.2,37.7,40.2z"/>
                         <path d="M58.7,49.3H68c0.6,0,1.3-0.5,1.5-1.1l1.8-6.8c0.2-0.6-0.2-1.1-0.8-1.1h-9.3c-0.6,0-1.3,0.5-1.5,1.1l-1.8,6.8     C57.7,48.7,58,49.3,58.7,49.3z"/>
                     </svg>
-                  <h2 className="font-bold text-white text-7xl ml-2.5">EST. 2024</h2>
+                  <h2 className="font-bold text-white text-5xl sm:text-7xl ml-2.5">EST. 2024</h2>
                 </div>
                 <p className="max-w-xs mt-1.5 text-xl text-white">Helping Restore Appalachia</p>
               </div>

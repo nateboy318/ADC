@@ -34,7 +34,9 @@ const Roadmap = () => {
               </div>
               <div className="ml-6">
                 <h3 className="text-3xl font-semibold text-white">Generate Funding</h3>
-                <p className="mt-4 text-base text-white">Lorem ipsum odor amet, consectetuer adipiscing elit. Nostra platea venenatis tortor tempus dictumst arcu at per nisi. Nibh consequat urna vestibulum dignissim erat, metus quis class dolor. Penatibus enim ultricies pretium curabitur molestie tellus magnis dictum facilisi. Inceptos turpis metus posuere vehicula malesuada; orci conubia. Pharetra bibendum hac tristique senectus dui class sollicitudin.</p>
+                <p className="mt-4 text-base text-white">We aim to secure the resources needed for sustainable recovery, ensuring that families receive both immediate relief and long-term solutions. With winter approaching and power outages expected to last months, our first priority is providing generators to keep homes warm and functional.
+
+</p>
               </div>
             </li>
 
@@ -62,7 +64,7 @@ const Roadmap = () => {
               </div>
               <div className="ml-6">
                 <h3 className="text-3xl font-semibold text-white">Build Our Team</h3>
-                <p className="mt-4 text-base text-white">Lorem ipsum odor amet, consectetuer adipiscing elit. Nostra platea venenatis tortor tempus dictumst arcu at per nisi. Nibh consequat urna vestibulum dignissim erat, metus quis class dolor. Penatibus enim ultricies pretium curabitur molestie tellus magnis dictum facilisi. Inceptos turpis metus posuere vehicula malesuada; orci conubia. Pharetra bibendum hac tristique senectus dui class sollicitudin.</p>
+                <p className="mt-4 text-base text-white">As we expand, we are actively seeking passionate individuals to join our mission of rebuilding Appalachian communities. Together, we can create a dedicated team focused on relief efforts, resource distribution, and long-term recovery.</p>
               </div>
             </li>
 
@@ -81,7 +83,7 @@ const Roadmap = () => {
               </div>
               <div className="ml-6">
                 <h3 className="text-3xl font-semibold text-white">Restore Our Community</h3>
-                <p className="mt-4 text-base text-white">Lorem ipsum odor amet, consectetuer adipiscing elit. Nostra platea venenatis tortor tempus dictumst arcu at per nisi. Nibh consequat urna vestibulum dignissim erat, metus quis class dolor. Penatibus enim ultricies pretium curabitur molestie tellus magnis dictum facilisi. Inceptos turpis metus posuere vehicula malesuada; orci conubia. Pharetra bibendum hac tristique senectus dui class sollicitudin.</p>
+                <p className="mt-4 text-base text-white">Our ultimate goal is to bring families back to their homes and restore the sense of community that was lost. Through collective efforts, we can rebuild homes, provide shelter, and ensure that no one is left behind in this process.</p>
               </div>
             </li>
           </ul>

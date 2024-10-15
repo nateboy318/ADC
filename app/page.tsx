@@ -7,6 +7,8 @@ import About from "./sections/About";
 import Roadmap from "./sections/Roadmap";
 import Footer from "./sections/Footer";
 import Link from "next/link";
+import Video from "./sections/Video";
+import Banner from "./sections/Banner";
 
 export const metadata: Metadata = {
   title: "Home | Next.js + TypeScript Example",
@@ -15,13 +17,31 @@ export const metadata: Metadata = {
 export default function IndexPage(): JSX.Element {
   return (
     <main>
-      <Header />
-      <Hero />
-      <Stats />
-      <About />
-      <Roadmap />
-      <Donate />
-      <Footer />
+      <Banner />
+      <div id="header">
+        <Header />
+      </div>
+      <div id="hero">
+        <Hero />
+      </div>
+      <div id="stats">
+        <Stats />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="roadmap">
+        <Roadmap />
+      </div>
+      <div id="video">
+        <Video />
+      </div>
+      <div id="donate">
+        <Donate />
+      </div>
+      <div id="footer">
+        <Footer />
+      </div>
     </main>
   );
 }
