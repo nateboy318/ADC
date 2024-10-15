@@ -11,7 +11,7 @@ import Video from "./sections/Video";
 import Banner from "./sections/Banner";
 
 export const metadata: Metadata = {
-  title: "Appalachian Disaster Coalition",
+  title: "Home | Appalachian Disaster Coalition",
 };
 
 export default function IndexPage(): JSX.Element {
