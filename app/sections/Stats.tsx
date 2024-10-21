@@ -15,7 +15,7 @@ const Stats = () => {
                         <h3 className="font-bold text-[5rem] lg:text-[7rem]">
                             <span className="text-white"> 3K </span>
                         </h3>
-                        <p className=" text-xl font-medium text-white">Homes Destoryed</p>
+                        <p className=" text-xl font-medium text-white">Homes Destroyed</p>
                         <p className="text-base mt-0.5 text-white">Because of recent natural disaster</p>
                     </div>
 
