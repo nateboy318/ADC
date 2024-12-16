@@ -2,8 +2,8 @@ import React from "react";
 
 const Contact: React.FC = () => {
   return (
-    <section className="z-50 relative">
-      <div className="grid grid-flow-row-dense lg:grid-cols-5 lg:grid-rows-3 ">
+    <section className="z-50 relative max-w-full overflow-hidden">
+      <div className="grid grid-flow-row-dense lg:grid-cols-5 lg:grid-rows-3">
         <div className="lg:order-1 lg:col-span-3 lg:row-span-2">
           <img
             className="object-cover w-full h-full"
@@ -43,7 +43,9 @@ const Contact: React.FC = () => {
                 </h3>
                 <p className="mt-3 text-lg font-normal text-white">
                   843-957-1600 <br />
-                  Bradley@Appalachiandisaastercoalition.com
+                  <span className="break-all">
+                    Bradley@Appalachiandisaastercoalition.com
+                  </span>
                 </p>
               </li>
             </ul>
