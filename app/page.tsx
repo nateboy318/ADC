@@ -9,6 +9,7 @@ import Footer from "./sections/Footer";
 import Link from "next/link";
 import Video from "./sections/Video";
 import Banner from "./sections/Banner";
+import Contact from "./sections/Contact";
 
 export const metadata: Metadata = {
   title: "Home | Appalachian Disaster Coalition",
@@ -38,6 +39,9 @@ export default function IndexPage(): JSX.Element {
       </div>
       <div id="donate">
         <Donate />
+      </div>
+      <div id="contact">
+        <Contact />
       </div>
       <div id="footer">
         <Footer />
