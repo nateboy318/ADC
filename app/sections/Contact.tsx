@@ -44,7 +44,7 @@ const Contact: React.FC = () => {
                 <p className="mt-3 text-lg font-normal text-white">
                   843-957-1600 <br />
                   <span className="break-all">
-                    Bradley@Appalachiandisaastercoalition.com
+                    Bradley@Appalachiandisastercoalition.com
                   </span>
                 </p>
               </li>
