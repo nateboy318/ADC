@@ -86,7 +86,7 @@ const Header = () => {
                     closeMenu()
                   }}
                 >
-                  501-C Form
+                  501(C)(3) Info
                 </button>
               </div>
             </div>
@@ -121,14 +121,14 @@ const Header = () => {
             {/* Modal content */}
             <div className="mt-3">
               <h3 className="text-2xl font-bold text-center text-white mb-4">
-                501-C Form Status
+                501(C)(3)
               </h3>
               <div className="space-y-4">
                 <p className="text-center text-white">
-                  Our 501-C form is currently pending approval.
+                  Appalachian Disaster Coalition is a public charity recognized as tax-exempt by the IRS under Section 501(C)(3)
                 </p>
-                <p className="text-center text-sm text-white">
-                  Please check back later for updates.
+                <p className="text-center font-bold text-xl text-white">
+                  EIN: 33-1449976
                 </p>
               </div>
             </div>

@@ -28,6 +28,16 @@ const Contact: React.FC = () => {
             <ul className="space-y-12">
               <li>
                 <h3 className="text-lg font-semibold text-white">
+                  Mail Donations To
+                </h3>
+
+                <p className="mt-3 text-lg font-normal text-white">
+                  PO Box 352, <br />
+                  Burnsville, NC 28714
+                </p>
+              </li>
+              <li>
+                <h3 className="text-lg font-semibold text-white">
                   Operational Hours
                 </h3>
 
